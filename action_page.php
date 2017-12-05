@@ -12,7 +12,7 @@
 		echo "<p style = 'color: red;'class='error'>Please select a campus</p>";
 		$okay = FALSE;
 	} else {
-		echo "<h4>form.html</h4>";
+		echo "<h4>https://nasiryare206.github.io/form.html</h4>";
 	}
   
 ?>
