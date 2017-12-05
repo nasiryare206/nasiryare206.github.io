@@ -4,8 +4,11 @@
 <h2> Just another header.</h2>
 
 <?php
-   if (!isset($_POST['submit'])) {
+  $submit = $_POST['submit'];
   $dropdown = $_POST['dropdown'];
+
+if (!isset($_POST['submit'])) {
+
 	
   
 //    if (empty($dropdown($_POST['']))) {
