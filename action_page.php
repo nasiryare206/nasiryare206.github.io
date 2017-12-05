@@ -6,6 +6,6 @@
  
  $college = $_POST['college'];
 
-echo "Campus: $college";
+echo "<h4> Campus: $college</h4>"
 
 ?>
