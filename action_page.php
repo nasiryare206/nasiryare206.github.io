@@ -4,7 +4,8 @@
 <h2> Just another header.</h2>
 
 <?php
-   
+
+  $selectcampus = $_POST['selectcampus']; 
   $dropdown = $_POST['dropdown'];
 	
   
