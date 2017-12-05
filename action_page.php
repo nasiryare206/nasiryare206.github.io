@@ -31,7 +31,7 @@
   //$submit = $_POST['submit'];
  $college = $_POST['college'];
 
-echo $college
+echo "Campus:" $college;
 
 
  
