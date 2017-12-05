@@ -3,7 +3,7 @@
 
 <h2> Just another header.</h2>
 
-<?php
+<!-- <?php
   $submit = $_POST['submit'];
   $dropdown = $_POST['dropdown'];
 
@@ -18,11 +18,28 @@
 // 		echo "<h4>https://nasiryare206.github.io/form.html</h4>";
 // 	} 
  
+// 	if ($dropdown = "selectcampus" && $submit = true) {
+// 		echo "<p style = 'color: red;'class='error'>Please select a campus</p>";
+// 		//$okay = FALSE;
+// 	} else (){
+// 		echo "<h4> https://nasiryare206.github.io/Roomitup/</h4>";
+// 	} 
+   //}
+?> -->
+
+<?php
+  //$submit = $_POST['submit'];
+ $college = $_POST['college'];
+
+echo $college
+
+
+ 
 	if ($dropdown = "selectcampus" && $submit = true) {
 		echo "<p style = 'color: red;'class='error'>Please select a campus</p>";
 		//$okay = FALSE;
 	} else (){
 		echo "<h4> https://nasiryare206.github.io/Roomitup/</h4>";
 	} 
-   //}
+   }
 ?>
