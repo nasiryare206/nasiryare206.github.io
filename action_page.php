@@ -5,13 +5,13 @@
 
 <?php
 
-  $selectcampus = $_POST['selectcampus']; 
+   
   $dropdown = $_POST['dropdown'];
 	
   
-  if (($_POST['selectcampus'])) {
+  if (empty($dropdown($_POST['selectcampus']))) {
 		echo "<p style = 'color: red;'class='error'>Please select a campus</p>";
-		$okay = FALSE;
+		//$okay = FALSE;
 	} else {
 		echo "<h4>https://nasiryare206.github.io/form.html</h4>";
 	}
